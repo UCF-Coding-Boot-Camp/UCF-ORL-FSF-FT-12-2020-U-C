@@ -1,0 +1,16 @@
+# Solutions
+
+1. Laravel determines which Controller method to call based on two parameters:
+
+    1. The HTTP method used to send the request (a form's method attribute);
+    2. The URL to which the request data is sent (a form's action attribute).
+
+[The Laravel documentation](https://laravel.com/docs/5.1/controllers#restful-resource-controllers) contains a table demonstrating the relationships. 
+
+Running `php artisan route:list` will display the same information for all of the controllers on your site.
+
+2. The HTTP method associated with `create` is `GET`.
+
+3. The combination of a `GET` method and `/users/create/` action indicated that we want to hit `UsersController.create`.
+
+4. The combination of a `POST` method and `/users/` action indicates we want to hit `UsersController.store`.

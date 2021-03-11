@@ -1,0 +1,5 @@
+<!-- This is a trivial example, but makes it clear that we can
+       use require to pull in raw HTML as well as PHP. -->
+<link rel="stylesheet" 
+      type="text/css" 
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
